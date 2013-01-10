@@ -1,0 +1,14 @@
+## YAML Template.
+---
+#base de datos mysql
+base:
+  host : 'localhost'
+  dbname : 'nazep'
+  user : 'nazep'
+  password : ''
+#Logs
+log:
+  error : 'app_error'
+  note  : 'app_note'
+  query : 'app_query_dao'
+  dir   : 'logs'
